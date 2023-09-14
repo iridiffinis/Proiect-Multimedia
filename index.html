@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Proiect</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="#">
+</head>
+<body>
+    <div id="titlu">
+        <h1>Aplicatie pentru vizualizarea datelor</h1>
+    </div>
+    <div class="continut">
+        <div id="evolutiePIB">
+            <h3>Evolutia indicatorului PIB pe cap de locuitor</h3>
+            <div>
+            <select id="tara" name="tara">
+                <option selected="selected">Selecteaza o tara</option>
+                <option value="BE">Belgia</option>
+                <option value="BG">Bulgaria</option>
+                <option value="CZ">Cehia</option>
+                <option value="DK">Danemarca</option>
+                <option value="DE">Germania</option>
+                <option value="EE">Estonia</option>
+                <option value="IE">Irlanda</option>
+                <option value="EL">Grecia</option>
+                <option value="ES">Spania</option>
+                <option value="FR">Franta</option>
+                <option value="HR">Croatia</option>
+                <option value="IT">Italia</option>
+                <option value="CY">Cipru</option>
+                <option value="LV">Letonia</option>
+                <option value="LT">Lituania</option>
+                <option value="LU">Luxemburg</option>
+                <option value="HU">Ungaria</option>
+                <option value="MT">Malta</option>
+                <option value="NL">Tarile de Jos</option>
+                <option value="AT">Austria</option>
+                <option value="PL">Polonia</option>
+                <option value="PT">Portugalia</option>
+                <option value="RO">Romania</option>
+                <option value="SI">Slovenia</option>
+                <option value="SK">Slovacia</option>
+                <option value="FI">Finlanda</option>
+                <option value="SE">Suedia</option>
+            </select>
+            </div>
+            <svg id="graf1" width="800" height="400">
+                <!-- <rect width="20" height="450" x="0" y="50"></rect> -->
+            </svg>
+        </div>
+
+        <br>
+        <hr class="divider">
+
+        <div id="sectiuneTabel">
+            <div>
+                <select id="an" name="an">
+                    <option selected="selected">Selecteaza anul</option>
+                    <option>2000</option>
+                    <option>2001</option>
+                    <option>2002</option>
+                    <option>2003</option>
+                    <option>2004</option>
+                    <option>2005</option>
+                    <option>2006</option>
+                    <option>2007</option>
+                    <option>2008</option>
+                    <option>2009</option>
+                    <option>2010</option>
+                    <option>2011</option>
+                    <option>2012</option>
+                    <option>2013</option>
+                    <option>2014</option>
+                    <option>2015</option>
+                    <option>2016</option>
+                    <option>2017</option>
+                    <option>2018</option>
+                </select>
+            </div>
+            <div id="container-tabel">
+                <table id="tabel">
+                    <thead>
+                        <tr>
+                            <th>TARA</th>
+                            <th>PIB pe cap de locuitor</th>
+                            <th>Speranta de viata</th>
+                            <th>Populatie</th>
+                        </tr>
+                    </thead>
+                    <!-- <tbody id="continutTabel">
+
+                    </tbody> -->
+                    
+                </table>
+            </div>
+        </div>
+
+        <!-- <div id="bubbleChartAn">
+            <div>
+            <select id="an" name="an">
+                <option selected="selected">Selecteaza anul</option>
+                <option>2000</option>
+                <option>2001</option>
+                <option>2002</option>
+                <option>2003</option>
+                <option>2004</option>
+                <option>2005</option>
+                <option>2006</option>
+                <option>2007</option>
+                <option>2008</option>
+                <option>2009</option>
+                <option>2010</option>
+                <option>2011</option>
+                <option>2012</option>
+                <option>2013</option>
+                <option>2014</option>
+                <option>2015</option>
+                <option>2016</option>
+                <option>2017</option>
+                <option>2018</option>
+            </select>
+            </div>
+            <canvas id="canvas"></canvas>
+        </div> -->
+    </div> 
+    
+    <script type="module" src="script.js"></script>
+</body>
+</html>
